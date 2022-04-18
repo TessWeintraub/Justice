@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700&display=swap"
+          rel="stylesheet">
+    <title>Justice School Code</title>
+    <script defer src="./src/script.js"></script>
+
+</head>
+<body>
+<!--HEADER-->
+<header class="header">
+    <span class="header__logo">Justice</span>
+    <div class="header__burger">
+        <img src="./assets/icons/burger-icon.svg" alt="burger-button">
+    </div>
+    <nav class="header__menu" aria-label="Header menu">
+        <ul class="menu__list">
+            <li class="menu__list__item">
+                <a href="#">Главная</a>
+            </li>
+            <li class="menu__list__item">
+                <a href="#">Список</a>
+            </li>
+            <li class="menu__list__item">
+                <a href="#">Друзья</a>
+            </li>
+            <li class="menu__list__item">
+                <a href="#">Контакты</a>
+            </li>
+        </ul>
+        <div class="menu__profile">
+            <button class="menu__profile__item">Выйти</button>
+            <img class="menu__profile__item"
+                 src="./assets/icons/bell-icon.svg"
+                 alt="bell-icon">
+            <img class="menu__profile__item"
+                 src="./assets/icons/profile-icon.svg"
+                 alt="profile-icon">
+        </div>
+    </nav>
+</header>
+<!--HEADER-->
+
+<!--MAIN-->
+<main class="main">
+    <div class="main__header">
+        <div class="main__header__options">
+            <button class="main__header__option__btn">Список</button>
+            <button class="main__header__option__btn">Напоминания</button>
+            <button class="main__header__option__btn">Еще</button>
+        </div>
+        <div class="main__header__add-field">
+            <input class="add-field__text"
+                   type="text"
+                   placeholder="Введите текст">
+            <div class="add-field__btn">
+                <span class="add-field__item">Добавить</span>
+                <img class="add-field__item"
+                     src="./assets/icons/plus-icon.svg"
+                     alt="plus-icon"/>
+            </div>
+        </div>
+    </div>
+    <div class="todo-list">
+
+
+    </div>
+</main>
+<!--MAIN-->
+
+<!--FOOTER-->
+<footer class="footer">
+    <div class="footer__wrapper">
+        <div class="footer__container">
+            <span class="footer__logo">Justice</span>
+            <nav class="footer-menu" aria-label="footer-menu">
+                <ul class="footer-menu__list">
+                    <li class="footer-menu__list__item">Главная</li>
+                    <li class="footer-menu__list__item">Список</li>
+                    <li class="footer-menu__list__item">Друзья</li>
+                    <li class="footer-menu__list__item">Контакты</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__rights-block">
+            <span>© 2021 Justice-team. All rights reserved.</span>
+            <div class="rights-block__privacy-container">
+                <span>Terms & conditions</span>
+                <span>Privacy Policy</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--FOOTER-->
+</body>
+</html>
